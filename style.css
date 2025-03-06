@@ -1,9 +1,9 @@
-body {
+ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -160,6 +160,10 @@ body {
 
 .dark-mode .search-box button:hover {
     background-color: #777;
+}
+
+.dark-mode .weather-details p {
+    color: #ddd; /* Change text color to a light gray in dark mode */
 }
 
 #dark-mode-toggle {
