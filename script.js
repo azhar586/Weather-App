@@ -10,6 +10,7 @@ map.on('click', onMapClick);
 const searchButton = document.querySelector('.search-box button');
 const searchInput = document.querySelector('.search-box input');
 const darkModeToggle = document.getElementById('dark-mode-toggle');
+const darkModeIcon = darkModeToggle.querySelector('i');
 const container = document.querySelector('.container');
 const weatherDetails = document.querySelector('.weather-details');
 const notFound = document.querySelector('.not-found');
@@ -22,6 +23,13 @@ searchButton.addEventListener('click', () => {
 
 darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeIcon.classList.remove('fa-moon');
+        darkModeIcon.classList.add('fa-sun');
+    } else {
+        darkModeIcon.classList.remove('fa-sun');
+        darkModeIcon.classList.add('fa-moon');
+    }
 });
 
 function onMapClick(e) {
