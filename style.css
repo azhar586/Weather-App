@@ -1,4 +1,5 @@
- body {
+
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
@@ -163,7 +164,7 @@
 }
 
 .dark-mode .weather-details p {
-    color: #ddd; /* Change text color to a light gray in dark mode */
+    color: #1e90ff; /* Change text color to dark blue in dark mode */
 }
 
 #dark-mode-toggle {
