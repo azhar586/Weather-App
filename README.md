@@ -1,6 +1,6 @@
 # Weather App
 
-A simple and interactive weather application that provides weather information based on user input or map clicks. The app uses HTML, CSS, and JavaScript along with Leaflet.js for the map and OpenWeatherMap API for fetching weather data.
+A beautiful and interactive weather application that provides weather information based on user input or map clicks. The app uses HTML, CSS, and JavaScript along with Leaflet.js for the map and OpenWeatherMap API for fetching weather data.
 
 ## Features
 
