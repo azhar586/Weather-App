@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name">
+            <button>Search</button>
+            <button id="dark-mode-toggle">Dark Mode</button>
+        </div>
+        <div id="map"></div>
+        <div class="weather-info">
+            <div class="not-found">
+                <img src="images/404.png" alt="Not found">
+                <p>Sorry! Invalid location</p>
+            </div>
+            <div class="weather-details">
+                <img src="" alt="Weather Icon">
+                <p class="location"></p>
+                <p class="temperature"></p>
+                <p class="description"></p>
+                <p class="humidity"></p>
+                <p class="wind"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
